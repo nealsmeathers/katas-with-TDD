@@ -16,4 +16,10 @@ describe('countingMonkeys', function () {
   it('returns [1, 2, 3, 4] if 4 is passed', function () {
     expect(countingMonkeys(4)).to.eql([1, 2, 3, 4]);
   });
+  it('returns [1, 2, 3, 4, 5, 6, 7, 8] if 8 is passed', function () {
+    expect(countingMonkeys(8)).to.eql([1, 2, 3, 4, 5, 6, 7, 8]);
+  });
+  it('returns an empty array if 0 is passed', function () {
+    expect(countingMonkeys(0)).to.eql([]);
+  });
 });
