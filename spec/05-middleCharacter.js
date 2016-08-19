@@ -3,7 +3,7 @@
 import { expect } from 'chai';
 import middleCharacter from '../05-middleCharacter/05-middleCharacter';
 
-describe.only('middleCharacter', function () {
+describe('middleCharacter', function () {
   it('exists', function () {
     expect(middleCharacter).to.be.a('function');
   });
