@@ -3,7 +3,7 @@
 import { expect } from 'chai';
 import surfaceAreaAndVolume from '../04-surfaceAreaAndVolume/04-surfaceAreaAndVolume';
 
-describe.only('surfaceAreaAndVolume', function () {
+describe('surfaceAreaAndVolume', function () {
   it('exists', function () {
     expect(surfaceAreaAndVolume).to.be.a('function');
   });
